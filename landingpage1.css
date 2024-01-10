@@ -228,10 +228,18 @@ body {
   width: 300px;
   height: 400px;
   flex-shrink: 0;
-  /* background: linear-gradient(1deg, #fd5c30 0.53%, rgba(0, 0, 0, 0) 101.68%); */
 }
 .our-service #card1 {
   position: relative;
+  background-image: url(/asset/image/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.our-service #card2 {
+  position: relative;
+  background-image: url(/asset/image/Rectangle5_1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .our-service #card p {
   width: 200px;
@@ -342,6 +350,9 @@ body {
 #project_section {
   position: relative;
   margin-top: 40px;
+  background-image: url(/asset/image/Rectangle\ 7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 #project_section img {
   width: 280px;
@@ -369,9 +380,13 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  background-image: url(/asset/image/Rectangle\ 12.png);
+  /* background-image: url(/asset/image/Rectangle\ 12.png); */
+  background-image: url(/asset/image/Rectangle\ 13.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+.offer-section img {
+  height: 200px;
 }
 .offer-section h1 {
   font-size: 30px;
@@ -517,4 +532,8 @@ footer {
   font-style: normal;
   font-weight: 400;
   line-height: 180%; /* 32.4px */
+}
+@media screen (min-width: 950px;) {
+  .nav-bar {
+  }
 }
