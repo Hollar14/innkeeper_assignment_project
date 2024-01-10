@@ -359,6 +359,42 @@ body {
   height: 340px;
   flex-shrink: 0;
 }
+#project_section2 {
+  position: relative;
+  margin-top: 40px;
+  background-image: url(./asset/image/Rectangle\ 8.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#project_section2 img {
+  width: 280px;
+  height: 340px;
+  flex-shrink: 0;
+}
+#project_section3 {
+  position: relative;
+  margin-top: 40px;
+  background-image: url(./asset/image/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#project_section3 img {
+  width: 280px;
+  height: 340px;
+  flex-shrink: 0;
+}
+#project_section4 {
+  position: relative;
+  margin-top: 40px;
+  background-image: url(./asset/image/Rectangle\ 10.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#project_section4 img {
+  width: 280px;
+  height: 340px;
+  flex-shrink: 0;
+}
 #project_text {
   position: absolute;
   bottom: 20px;
