@@ -231,13 +231,13 @@ body {
 }
 .our-service #card1 {
   position: relative;
-  background-image: url(/asset/image/Rectangle\ 5.png);
+  background-image: url(./asset/image/Rectangle\ 5.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .our-service #card2 {
   position: relative;
-  background-image: url(/asset/image/Rectangle5_1.png);
+  background-image: url(./asset/image/Rectangle5_1.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -350,7 +350,7 @@ body {
 #project_section {
   position: relative;
   margin-top: 40px;
-  background-image: url(/asset/image/Rectangle\ 7.png);
+  background-image: url(./asset/image/Rectangle\ 7.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -381,7 +381,7 @@ body {
   align-items: center;
   justify-content: space-between;
   /* background-image: url(/asset/image/Rectangle\ 12.png); */
-  background-image: url(/asset/image/Rectangle\ 13.png);
+  background-image: url(./asset/image/Rectangle\ 13.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
