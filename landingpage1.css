@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   scroll-behavior: smooth;
-  /* margin-bottom: 1000px; */
 }
 .nav-bar {
   display: flex;
@@ -18,6 +17,7 @@ body {
 #left-section img {
   width: 44px;
   height: 26px;
+  cursor: pointer;
 }
 #middle-section {
   display: flex;
@@ -27,9 +27,18 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 12px;
 }
+#middle-section a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
 #middle-section #home {
   text-decoration-line: underline;
   color: #f54c1e;
+}
+#right-section button:active {
+  color: #f54c1e;
+  opacity: 0.5;
 }
 #right-section button {
   font-size: 10px;
@@ -38,6 +47,10 @@ body {
   border: none;
   color: white;
   padding: 8px 10px;
+}
+#right-section button a {
+  text-decoration: none;
+  color: white;
 }
 .hero-section {
   background: #031333;
@@ -86,6 +99,14 @@ body {
   line-height: 15px;
   padding: 13px 15px;
   font-size: 15px;
+}
+.hero-section #our-service:active {
+  color: #f54c1e;
+  opacity: 0.5;
+}
+.hero-section #our-service a {
+  text-decoration: none;
+  color: white;
 }
 .hero-section img {
   width: 450px;
@@ -196,6 +217,14 @@ body {
   border: none;
   border-radius: 2px;
   font-size: 8px;
+}
+.article button:active {
+  color: #f54c1e;
+  opacity: 0.5;
+}
+.article button a {
+  text-decoration: none;
+  color: white;
 }
 .our-service {
   color: white;
@@ -416,7 +445,6 @@ body {
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  /* background-image: url(/asset/image/Rectangle\ 12.png); */
   background-image: url(./asset/image/Rectangle\ 13.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -435,6 +463,14 @@ body {
   border-radius: 2px;
   padding: 10px 15px;
   font-size: 11px;
+  color: white;
+}
+.offer-section button:active {
+  color: #f54c1e;
+  opacity: 0.5;
+}
+.offer-section button a {
+  text-decoration: none;
   color: white;
 }
 .meet_us {
@@ -530,6 +566,14 @@ body {
   display: flex;
   align-items: center;
 }
+.news #get_started button:active {
+  color: #f54c1e;
+  opacity: 0.5;
+}
+.news #get_started button a {
+  text-decoration: none;
+  color: white;
+}
 footer {
   background: #031333;
   color: white;
@@ -542,6 +586,7 @@ footer {
 #footer_logo {
   width: 70px;
   height: 35px;
+  cursor: pointer;
 }
 #footer-left p {
   color: #fdfdfd;
@@ -555,6 +600,7 @@ footer {
 #footer-left #social {
   width: 100px;
   margin-top: 20px;
+  cursor: pointer;
 }
 #footer-right th {
   padding-right: 70px;
@@ -571,7 +617,11 @@ footer {
   font-weight: 400;
   line-height: 180%; /* 32.4px */
 }
-@media screen (min-width: 950px;) {
+#footer-right table tr a {
+  text-decoration: none;
+  color: white;
+}
+@media screen (min-width: 767px;) {
   .nav-bar {
   }
 }
